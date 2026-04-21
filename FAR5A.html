@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Nasr | Content Creator & Script Writer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: #6366f1;
+            border-radius: 2px;
+        }
+        .data-table-container {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 2rem;
+            overflow: hidden;
+            margin-bottom: 3rem;
+        }
+        .data-table th {
+            background: rgba(255, 255, 255, 0.05);
+            text-transform: uppercase;
+            font-size: 10px;
+            letter-spacing: 0.1em;
+            padding: 1.25rem 1.5rem;
+            color: #94a3b8;
+        }
+        .data-table td {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 13px;
+        }
+        .qotof-logo {
+            height: 40px;
+            width: auto;
+            object-contain: contain;
+        }
+        @media print {
+            .no-print { display: none !important; }
+            body { background: white; color: black; }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 leading-relaxed">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm no-print">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex justify-between items-center h-20">
+                <div class="text-xl font-extrabold tracking-tighter text-slate-900 uppercase">Mahmoud <span class="text-indigo-600">Nasr.</span></div>
+                <div class="hidden md:flex space-x-8 font-semibold text-xs uppercase tracking-widest items-center text-slate-500">
+                    <a href="#home" class="hover:text-indigo-600 transition">Home</a>
+                    <a href="#about" class="hover:text-indigo-600 transition">About</a>
+                    <a href="#experience" class="hover:text-indigo-600 transition">Experience</a>
+                    <a href="#performance" class="hover:text-indigo-600 transition">Performance</a>
+                    <a href="#contact" class="bg-indigo-600 text-white px-6 py-2.5 rounded-full hover:bg-indigo-700 transition shadow-lg">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero (Page 1) -->
+    <section id="home" class="pt-32 pb-20 md:pt-48 md:pb-32 gradient-bg text-white relative">
+        <div class="max-w-7xl mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-3/5 text-center md:text-left">
+                <h2 class="text-indigo-400 font-bold tracking-[0.4em] uppercase mb-4 text-xs">Portfolio</h2>
+                <h1 class="text-5xl md:text-8xl font-black mb-6 leading-[1.1] tracking-tighter uppercase">Content Creator <br/>& Script Writer</h1>
+                <p class="text-lg opacity-70 mb-10 max-w-xl">Transforming ordinary ideas into creative content that stands out and drives massive conversion.</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#performance" class="bg-indigo-600 text-white px-10 py-4 rounded-full font-bold hover:shadow-xl transition">View Analytics</a>
+                    <a href="#contact" class="border-2 border-white/20 px-10 py-4 rounded-full font-bold hover:bg-white/10 transition">Contact Me</a>
+                </div>
+            </div>
+            <div class="md:w-1/3 mt-12 md:mt-0">
+                <img src="https://ui-avatars.com/api/?name=Mahmoud+Nasr&size=400&background=4f46e5&color=fff" class="w-64 h-64 md:w-80 md:h-80 rounded-[3rem] border-8 border-white/5 shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me (Page 3) -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <h3 class="text-3xl font-black section-title">About Me</h3>
+            <div class="space-y-6 text-slate-600 text-lg">
+                <p>Hi, I'm <span class="font-bold text-slate-900">Mahmoud Nasr</span>, a content creator focused on transforming ordinary ideas into creative content that stands out.</p>
+                <p>I work on building concepts that don't just look good, but actually connect with the audience and drive engagement.</p>
+                <p>My approach is based on creativity, experimentation, and always pushing beyond what's already working.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission (Page 4) -->
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+            <div class="bg-white p-10 rounded-[2.5rem] shadow-sm">
+                <h4 class="text-xl font-black mb-4 uppercase tracking-tighter">Vision</h4>
+                <p class="text-slate-600 italic">To become one of the leading Arabic copywriters and content creators, known for turning ideas into impactful messages that educate, engage, and sell - while building a unique content style recognized under my name.</p>
+            </div>
+            <div class="bg-white p-10 rounded-[2.5rem] shadow-sm text-slate-600">
+                <h4 class="text-xl font-black mb-4 uppercase tracking-tighter text-slate-900">Mission</h4>
+                <ul class="space-y-3 list-disc pl-5">
+                    <li>To create simple, engaging, and persuasive marketing content that helps audiences understand and take action.</li>
+                    <li>Developing high-performing copywriting skills that drive real business results.</li>
+                    <li>Continuously improving to reach a senior level and grow into a team leader in the content and advertising industry.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience (Page 5) -->
+    <section id="experience" class="py-24 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h3 class="text-3xl font-black section-title mb-16 uppercase">Work Experience</h3>
+            
+            <div class="space-y-16">
+                <!-- Mintova -->
+                <div>
+                    <h4 class="text-2xl font-black uppercase tracking-tight">Content Creator Specialist</h4>
+                    <p class="text-indigo-600 font-bold text-sm mb-6 uppercase tracking-widest">Mintova Marketing</p>
+                    <ul class="grid md:grid-cols-2 gap-4 text-slate-600 text-sm">
+                        <li>• Developed creative content ideas tailored to different industries.</li>
+                        <li>• Worked on content direction and concept building.</li>
+                        <li>• Contributed to content calendars and campaign planning.</li>
+                        <li>• Conducted competitor analysis to identify new opportunities.</li>
+                        <li>• Focused on creating engaging content that connects with the target audience.</li>
+                    </ul>
+                </div>
+                <!-- Diet & Cheat -->
+                <div class="pt-10 border-t border-slate-100">
+                    <h4 class="text-2xl font-black uppercase tracking-tight">Sales Specialist → Senior → Team Leader</h4>
+                    <p class="text-slate-500 font-bold text-sm mb-6 uppercase tracking-widest">Diet & Cheat</p>
+                    <ul class="grid md:grid-cols-2 gap-4 text-slate-600 text-sm">
+                        <li>• Progressed from Sales Representative to Senior and Team Leader within one year.</li>
+                        <li>• Developed strong negotiation and persuasion skills.</li>
+                        <li>• Consistently achieved and exceeded sales targets.</li>
+                        <li>• Contributed to achieving record-breaking sales numbers within the company.</li>
+                        <li>• Led and supported team members to improve overall performance.</li>
+                    </ul>
+                </div>
+                <!-- Customer Service -->
+                <div class="pt-10 border-t border-slate-100">
+                    <h4 class="text-2xl font-black uppercase tracking-tight">Customer Service Representative</h4>
+                    <p class="text-slate-500 font-bold text-sm mb-6 uppercase tracking-widest">Service Industry</p>
+                    <ul class="grid md:grid-cols-2 gap-4 text-slate-600 text-sm">
+                        <li>• Handled customer inquiries and resolved issues efficiently.</li>
+                        <li>• Developed strong problem-solving and communication skills.</li>
+                        <li>• Learned how to manage different customer behaviors and situations.</li>
+                        <li>• Improved ability to think effectively under pressure.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Performance Data (Screenshots 1-5) -->
+    <section id="performance" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h3 class="text-4xl font-black mb-12 tracking-tight uppercase">Master Performance Report</h3>
+
+            <!-- TABLE 1: Sales Purchases Data -->
+            <div class="data-table-container">
+                <div class="p-6 border-b border-white/10 font-bold uppercase text-[10px] tracking-[0.3em] text-indigo-400 flex items-center gap-4">
+                    <img src="https://drive.google.com/uc?export=view&id=1pfb_1YqXN5ceakA0IbSE_cOP6YUGgoo0" class="h-6">
+                    Sales & Purchase ROAS (Master Table)
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left data-table">
+                        <thead>
+                            <tr>
+                                <th>Ad Name</th>
+                                <th class="text-center">Purchases</th>
+                                <th class="text-center">Purchase ROAS</th>
+                                <th class="text-right">Amount Spent (EGP)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-slate-300">
+                            <tr><td>Campaign Batch 01</td><td class="text-center font-bold">1,161</td><td class="text-center font-black text-indigo-400">6.53</td><td class="text-right italic">137,689.92</td></tr>
+                            <tr><td>Campaign Batch 02</td><td class="text-center font-bold">1,031</td><td class="text-center font-black text-indigo-400">7.94</td><td class="text-right italic">107,147.24</td></tr>
+                            <tr><td>Campaign Batch 03</td><td class="text-center font-bold">956</td><td class="text-center font-black text-indigo-400">6.12</td><td class="text-right italic">77,639.20</td></tr>
+                            <tr><td>Campaign Batch 04</td><td class="text-center font-bold">544</td><td class="text-center font-black text-indigo-400">5.83</td><td class="text-right italic">73,578.16</td></tr>
+                            <tr><td>Campaign Batch 05</td><td class="text-center font-bold">475</td><td class="text-center font-black text-indigo-400">6.70</td><td class="text-right italic">66,225.89</td></tr>
+                            <tr><td>Campaign Batch 06</td><td class="text-center font-bold">674</td><td class="text-center font-black text-indigo-400">5.73</td><td class="text-right italic">65,482.25</td></tr>
+                            <tr><td>Campaign Batch 07</td><td class="text-center font-bold">824</td><td class="text-center font-black text-emerald-400">314,293,356.42*</td><td class="text-right italic">63,077.03</td></tr>
+                            <tr><td>Campaign Batch 08</td><td class="text-center font-bold">776</td><td class="text-center font-black text-indigo-400">6.44</td><td class="text-right italic">61,928.54</td></tr>
+                            <tr><td>Campaign Batch 09</td><td class="text-center font-bold">340</td><td class="text-center font-black text-indigo-400">7.95</td><td class="text-right italic">56,836.67</td></tr>
+                            <tr><td>Campaign Batch 10</td><td class="text-center font-bold">816</td><td class="text-center font-black text-emerald-400">28,495,849.94*</td><td class="text-right italic">53,986.44</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- TABLE 2: Messaging & Engagement (Screenshot 3 & 4) -->
+            <div class="data-table-container">
+                <div class="p-6 border-b border-white/10 font-bold uppercase text-[10px] tracking-[0.3em] text-emerald-400">Messaging Campaigns Analysis</div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left data-table">
+                        <thead>
+                            <tr>
+                                <th>Campaign/Ad Name</th>
+                                <th class="text-center">Results (Msg)</th>
+                                <th class="text-center">Cost/Result</th>
+                                <th class="text-center">CTR (All)</th>
+                                <th class="text-right">Spent (EGP)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-slate-300">
+                            <tr><td>Sales Campaign #L1</td><td class="text-center font-bold">289</td><td class="text-center">37.46</td><td class="text-center">3.45%</td><td class="text-right">10,826.49</td></tr>
+                            <tr><td>Sales Campaign #L2</td><td class="text-center font-bold">95</td><td class="text-center">26.58</td><td class="text-center">3.36%</td><td class="text-right">2,525.18</td></tr>
+                            <tr><td>Sales Campaign #L3</td><td class="text-center font-bold">89</td><td class="text-center font-black text-indigo-300">26.32</td><td class="text-center font-bold">3.44%</td><td class="text-right">2,342.32</td></tr>
+                            <tr class="bg-white/5"><td>New Sales Ad</td><td class="text-center font-bold">10</td><td class="text-center italic">16.24</td><td class="text-center">3.36%</td><td class="text-right">162.42</td></tr>
+                            <tr class="bg-white/5"><td>V-6 Ad</td><td class="text-center font-bold">9</td><td class="text-center italic">19.22</td><td class="text-center">4.43%</td><td class="text-right">172.99</td></tr>
+                            <tr class="bg-white/5"><td>New Sales Ad - Copy</td><td class="text-center font-bold">3</td><td class="text-center italic font-black text-emerald-400">8.01</td><td class="text-center">4.35%</td><td class="text-right">24.04</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- TABLE 3: Creative CTR & CPM (Screenshot 1 & 5) -->
+            <div class="data-table-container">
+                <div class="p-6 border-b border-white/10 font-bold uppercase text-[10px] tracking-[0.3em] text-amber-400">Creative Reach & CPM Benchmarks</div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left data-table">
+                        <thead>
+                            <tr>
+                                <th>Creative Reference</th>
+                                <th class="text-center">Reach</th>
+                                <th class="text-center">CTR (All)</th>
+                                <th class="text-center">CPM (Cost/1k)</th>
+                                <th class="text-right">Cost Per Result</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-slate-300">
+                            <tr><td class="font-bold">زن زن زن (Zan Zan Zan)</td><td class="text-center">41,116</td><td class="text-center">2.74%</td><td class="text-center italic">71.68</td><td class="text-right font-black">28.12</td></tr>
+                            <tr><td>1-P Ad Creative</td><td class="text-center">-</td><td class="text-center font-black text-emerald-400">13.51%</td><td class="text-center italic">66.22</td><td class="text-right font-bold">-</td></tr>
+                            <tr><td>2... Ad Unj</td><td class="text-center">-</td><td class="text-center">-</td><td class="text-center italic">52.27</td><td class="text-right font-black text-emerald-400">1.15</td></tr>
+                            <tr><td>6-P Ad Creative</td><td class="text-center">-</td><td class="text-center">2.97%</td><td class="text-center italic">79.81</td><td class="text-right">7.53</td></tr>
+                            <tr><td>2-P Ad Creative</td><td class="text-center">-</td><td class="text-center">2.67%</td><td class="text-center italic">160.47</td><td class="text-right font-bold">12.04</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies (Pages 8-10) -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h3 class="text-3xl font-black mb-12 uppercase section-title">Qotof ElKhier Case Studies</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- CS 1 -->
+                <div class="bg-slate-50 p-8 rounded-[3rem] border border-slate-100 flex flex-col items-center text-center">
+                    <img src="https://drive.google.com/uc?export=view&id=1pfb_1YqXN5ceakA0IbSE_cOP6YUGgoo0" class="h-16 mb-6">
+                    <p class="font-black text-indigo-600 uppercase text-xs tracking-widest mb-4">Dates Campaign (Page 8)</p>
+                    <div class="space-y-2">
+                        <p class="text-sm font-bold">Spent: <span class="text-slate-400 italic">40,000 EGP</span></p>
+                        <p class="text-sm font-bold">Orders: <span class="text-slate-400 italic">415</span></p>
+                        <p class="text-3xl font-black text-slate-900">ROAS: 10.0</p>
+                    </div>
+                </div>
+                <!-- CS 2 -->
+                <div class="bg-slate-50 p-8 rounded-[3rem] border border-slate-100 flex flex-col items-center text-center">
+                    <img src="https://drive.google.com/uc?export=view&id=1pfb_1YqXN5ceakA0IbSE_cOP6YUGgoo0" class="h-16 mb-6">
+                    <p class="font-black text-indigo-600 uppercase text-xs tracking-widest mb-4">Nuts Mix Campaign (Page 8)</p>
+                    <div class="space-y-2">
+                        <p class="text-sm font-bold">Spent: <span class="text-slate-400 italic">62,000 EGP</span></p>
+                        <p class="text-sm font-bold">Orders: <span class="text-slate-400 italic">776</span></p>
+                        <p class="text-3xl font-black text-slate-900">ROAS: 6.5</p>
+                    </div>
+                </div>
+                <!-- CS 3 -->
+                <div class="bg-slate-50 p-8 rounded-[3rem] border border-slate-100 flex flex-col items-center text-center">
+                    <img src="https://drive.google.com/uc?export=view&id=1pfb_1YqXN5ceakA0IbSE_cOP6YUGgoo0" class="h-16 mb-6">
+                    <p class="font-black text-indigo-600 uppercase text-xs tracking-widest mb-4">Batch 1030 Campaign (Page 9)</p>
+                    <div class="space-y-2">
+                        <p class="text-sm font-bold">Spent: <span class="text-slate-400 italic">107,147 EGP</span></p>
+                        <p class="text-sm font-bold">Orders: <span class="text-slate-400 italic">1030</span></p>
+                        <p class="text-3xl font-black text-slate-900">ROAS: 8.0</p>
+                    </div>
+                </div>
+                <!-- CS 4 -->
+                <div class="bg-slate-50 p-8 rounded-[3rem] border border-slate-100 flex flex-col items-center text-center">
+                    <img src="https://drive.google.com/uc?export=view&id=1pfb_1YqXN5ceakA0IbSE_cOP6YUGgoo0" class="h-16 mb-6">
+                    <p class="font-black text-indigo-600 uppercase text-xs tracking-widest mb-4">Special Boxes Campaign (Page 10)</p>
+                    <div class="space-y-2">
+                        <p class="text-sm font-bold">Spent: <span class="text-slate-400 italic">65,000 EGP</span></p>
+                        <p class="text-sm font-bold">Orders: <span class="text-slate-400 italic">824</span></p>
+                        <p class="text-3xl font-black text-slate-900">ROAS: 8.0</p>
+                    </div>
+                </div>
+                <!-- CS 5 -->
+                <div class="bg-slate-50 p-8 rounded-[3rem] border border-slate-100 flex flex-col items-center text-center">
+                    <img src="https://drive.google.com/uc?export=view&id=1pfb_1YqXN5ceakA0IbSE_cOP6YUGgoo0" class="h-16 mb-6">
+                    <p class="font-black text-indigo-600 uppercase text-xs tracking-widest mb-4">Ramadan Offers (Page 9)</p>
+                    <div class="space-y-2">
+                        <p class="text-sm font-bold">Spent: <span class="text-slate-400 italic">66,225 EGP</span></p>
+                        <p class="text-sm font-bold">Orders: <span class="text-slate-400 italic">475</span></p>
+                        <p class="text-3xl font-black text-slate-900">ROAS: 6.7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Clients (Pages 6 & 11) -->
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-20">
+                <div>
+                    <h3 class="text-2xl font-black mb-8 uppercase">Services & Skills</h3>
+                    <div class="flex flex-wrap gap-2 text-sm font-bold text-slate-600">
+                        <span class="px-5 py-3 bg-white rounded-2xl border border-slate-100">Creative Direction</span>
+                        <span class="px-5 py-3 bg-white rounded-2xl border border-slate-100">Content Calendar Planning</span>
+                        <span class="px-5 py-3 bg-white rounded-2xl border border-slate-100">Basic Video Editing & Design</span>
+                        <span class="px-5 py-3 bg-white rounded-2xl border border-slate-100">Competitor Analysis</span>
+                        <span class="px-5 py-3 bg-white rounded-2xl border border-slate-100">Funnel Thinking</span>
+                        <span class="px-5 py-3 bg-white rounded-2xl border border-slate-100">Content Strategy</span>
+                        <span class="px-5 py-3 bg-white rounded-2xl border border-slate-100">Negotiation & Communication</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-black mb-12 uppercase opacity-40 text-center">Trusted Brands</h3>
+                    <div class="grid grid-cols-2 gap-10 items-center opacity-70 grayscale">
+                        <div class="text-center font-black">TREE DESIGN</div>
+                        <div class="text-center font-black uppercase tracking-tighter">TRO DESIGN</div>
+                        <div class="text-center font-black uppercase tracking-widest">THAMARA (ثمرة)</div>
+                        <div class="flex flex-col items-center">
+                            <img src="https://drive.google.com/uc?export=view&id=1pfb_1YqXN5ceakA0IbSE_cOP6YUGgoo0" class="h-10 mb-1">
+                            <span class="text-[8px] font-black uppercase">Qotof ElKhier</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact (Page 12) -->
+    <section id="contact" class="py-24 bg-white text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase">Let's Create Together.</h2>
+            <div class="flex flex-col md:flex-row justify-center gap-10 mt-12">
+                <a href="mailto:mahmoud.nasr.kotb@gmail.com" class="text-xl font-bold text-slate-800 hover:text-indigo-600 transition">mahmoud.nasr.kot@gmail.com</a>
+                <a href="tel:01146534077" class="text-xl font-bold text-slate-800 hover:text-indigo-600 transition">01146534077</a>
+            </div>
+            <div class="mt-16">
+                <a href="https://wa.me/201146534077" class="bg-indigo-600 text-white px-12 py-5 rounded-full font-black uppercase tracking-widest shadow-2xl hover:bg-indigo-700 transition inline-block">WhatsApp Message</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 text-center text-[10px] font-black uppercase tracking-[0.5em] text-slate-300 border-t border-slate-100 no-print">
+        Mahmoud Nasr • Content Creator & Script Writer • 2026
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
